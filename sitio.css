@@ -1,0 +1,12 @@
+/* El arte de manifestar · ajustes para la versión publicada */
+html, body { background: #E9E3D8; }
+body { margin: 0; -webkit-text-size-adjust: 100%; }
+.pagina { box-shadow: 0 0 0 1px rgba(58, 53, 48, 0.06); }
+[hidden] { display: none !important; }
+/* zona táctil más amplia para la barra de avance del audio */
+[data-role="bar"]::before { content: ""; position: absolute; left: 0; right: 0; top: -14px; bottom: -14px; }
+button:disabled { opacity: 0.6; cursor: default; }
+@media (max-width: 480px) {
+  html, body { background: #F7F3EC; }
+  .pagina { box-shadow: none; }
+}
