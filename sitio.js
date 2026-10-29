@@ -11,7 +11,7 @@
      Para recibir los registros y los mensajes del cierre en una hoja de Google,
      pega aquí la URL de tu Google Apps Script (ver README.md). Mientras esté
      vacía, el sitio funciona igual pero los datos no se envían a ningún lado. */
-  var FORM_ENDPOINT = '';
+  var FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwrkJdaZLa9-Vhqb-Nuycv0Lu5DYOr1v5r-dZd4E1Qo9Mc09z97Uqn6mTaEm0n4G94lqw/exec';
   /* ======================================================================= */
 
   var KEY_HECHAS = 'eam-sesiones-hechas';
